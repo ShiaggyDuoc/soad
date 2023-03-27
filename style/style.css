@@ -87,4 +87,12 @@ body {
     background-color: #91918f !important;
 }
   
-  
+.carousel-container {
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 600px;
+}
