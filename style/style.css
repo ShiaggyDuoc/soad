@@ -15,7 +15,7 @@ li a {
     color: whitesmoke;
     text-align: center;
     padding: 20px 16px;
-    text-decoration: none;
+    text-decoration: none ;
 }
 
 li a:hover {
@@ -100,7 +100,7 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 75px;
+    margin-top: 100px;
     margin-bottom: 50px;    
   }
   
@@ -128,18 +128,17 @@ table {
     padding: 0;
   }
   
-  ul li {
+  .discography-table ul li {
     margin: 10px 10px;
   }
   
-  li:nth-child(n) {
+  .discography-table li:nth-child(n) {
     counter-increment: song;
   }
   
-  li:before {
+  .discography-table li:before {
     content: counter(song) ". ";
     font-weight: bold;
     margin-right: 5px;
-  }
-  
+}
   
